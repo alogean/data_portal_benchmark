@@ -12,61 +12,10 @@ En se basant sur cette analyse nous énonçons un ensemble de recommandations pr
 
 # Organisation des critères d'évaluation
 
-Une plateforme gouvernementale dont la vocation est l'ouverture des données publiques présente de nombreux aspects. Il n'est pas ainsé de définir une liste normative et exaustive de critères d'évaluation. Nous allons ici dans un premier temps évaluer la plateforme sous deux perspectives différentes: celle du pourvoyeur de données et celle du consomateur de données. La perspective lié à la production des données va s'interesser au divers aspects liés à la publication de données (quoi publié ? Comment publié ? Sous quelles formes et formats ?). La perspective liée à la consommation des données tentera d'évaluer la plateforme en se basant sur divers types d'utilisateurs, chaqu'un ayant des attentes et des besoins différent. 
+Une plateforme gouvernementale dont la vocation est l'ouverture des données publiques présente de nombreux aspects. Il n'est pas ainsé de définir une liste normative et exaustive de critères d'évaluation. Nous allons ici dans un premier temps évaluer la plateforme sous deux perspectives différentes: celle du pourvoyeur de données et celle du consomateur de données. 
 
-En résumé les critère s'organisent de la manière suivante:
+La perspective lié à la production des données va s'interesser au divers aspects liés à la publication de données (quoi publié ? Comment publié ? Sous quelles formes et formats ?). La perspective liée à la consommation des données tentera d'évaluer la plateforme en se basant sur divers types d'utilisateurs, chaqu'un ayant des attentes et des besoins différent. 
 
-## Critères liés à la publication des données
-
-### Aspects liés à l'ouverture des données
-
-  * intégralité
-  * accessibilité
-  * accès non-discriminatoir
-  * licence libre
-  * gratuité
-
-### Aspects liés à l'analyse, au traitement et à la réutilisation des données
-
-  * données originales (sources primaires)
-  * immédiateté
-  * permanence
-  * utilisation de formats structurés, interprétables par un ordinateur
-  * utilisation de formats non-propriétaires
-
-## Critères liés à la consommation des données
-
-### Usagers traditionels
-
-  * recherche de données
-  * recherche d'Apps
-  * visualisations de données
-  * écrires des commentaires 
-  * faire des suggestions
-  
-### Développeurs 
-
-  * recherche de données                         
-  
-### Designers, personnes porteuses d'idées
-
-  * recherche de données
-  
-### Étudiants et chercheurs
-
-  * recherche de données
-  
-### Journalistes et médias
- 
-  * recherche de données
-  
-### Entreprises et sociétés privées
-
-  * recherche de données
-  
-### Administrations et pouvoyeurs de données 
-                      
-                         
 ## Critères en lien avec la publication des données
                                                                            
 Nous allons ici nous interesser dans un premier temps au divers aspects lié à la publications des données. Comme point de départ nous avons pris les 10 principes Opendata définit par la Sunlight Foundation [^1]. Ces 10 rêgles peuvent à leur tour être regroupée en deux groupes: les critères fondamentaux d'ouvertures et les critères relatifs à aux données elles-même.  
@@ -74,6 +23,19 @@ Nous allons ici nous interesser dans un premier temps au divers aspects lié à 
 **Critères fondamentaux d'ouverture**: indépendament de la donnée elle-même (sont format, ses mises-à-jour, …) nous évaluons ici les divers aspects liées au processus d'ouverture lui-même et à la manière dont on accède à la donnée. C'est en fait un pré-requi à la réutilisation des données. Ce point regroupe les aspects suivants: **intégralité**, **accessibilité**, **accès non-discriminatoir**, **licence libre** et **gratuité**.
 
 **Critères relatifs à l'analyse, au traitement et à la réutilisation des données publiées**: une fois les données "ouvertes" et leur accès assuré nous pouvons nous interessé au données elle même. Nous avons ici les points suivants: **données originales** (sources primaires), **immédiateté**, **permanence**, utilisation de **formats structurés interprétables par un ordinateur** et utilisation de **formats non-propriétaires**. 
+
+
+## Critères liés à la consommation des données
+
+La grille d'analyse est ici centrée sur les usagers de la plateforme. Pour chaque profile d'utilisateur, nous dressons une liste de fonctionnalités attendues et évaluons la manière dont la plateforme les implémentes. Les profiles suivants d'utilisateurs ont été défini: 
+
+* citoyens et utilisateurs sans connaissances spécifiques
+* usager avancés (chercheurs, journalistes d'investigations)
+* développeurs & designers usagers traditionels
+                      
+                         
+## Définitions des critères et méthodes d'évaluation
+                                                                         
  
 ### Critères fondamentaux d'ouverture
 
@@ -93,19 +55,7 @@ L'évaluation du critère d'intégralité s'appuie sur la graduation suivante:
 0 point | 1 point | 2 points | 3 points | 4 points 
 --------|---------|----------|----------|--------- 
 _Mise en oeuvre inexistante_ | _Mise en oeuvre insuffisante_ | _Mise en oeuvre suffisante_ | _Bonne mise en oeuvre_ | _Parfaite mise en oeuvre_ 
-Aucune données publiques n'est disponibles | qu'une petite partie des données sont publiées sans métadonnées ou description des transformations effectuées sur les données brutes. | qu'une partie des données sont publiées cependant avec un descriptif des métadonnées ainsi que des transformations effectuées sur les données brutes.| l'intégralité des données brutes cependant sans descriptifs détailés des métadonnées (description de la sémantique des données, des méthodes d'aquisition, des transformations effectuées) |l'intégralité des données brutes sont publiées ainsi que un descriptif détaillé des métadonnées (description de la sémantique des données, des méthodes d'aquisition, des transformations effectuées)
-
-**Evaluation du SITG : 4/5**
-
-Le portail du SITG publie des données cartographiques. Toutes les données n'ayant pas de caractères géographiques n'est donc pas compris dans l'offre de données mise à disposition. Cependant grâce à un large réseau de partenaire le SITG met à disposition un très large éventail de données (santé, environement, aménagement du territoire, mobilité …).
-Le SITG n'a pas un contrôle directe sur le contenu des données. Est-ce que les partenaires publient l'intégratlité de leur données ?
-Qu'en est-il des données de la ville de Genève ?
-Qu'en est-il des données non-géographiques ?    
-
-
-**Recomendation**
-
-
+Aucune données publiques n'est disponibles | qu'une petite partie des données sont publiées sans métadonnées ou description des transformations effectuées sur les données brutes. | qu'une partie des données sont publiées cependant avec un descriptif des métadonnées ainsi que des transformations effectuées sur les données brutes.| l'intégralité des données brutes cependant sans descriptifs détailés des métadonnées (description de la sémantique des données, des méthodes d'aquisition, des transformations effectuées) |l'intégralité des données brutes sont publiées ainsi que un descriptif détaillé des métadonnées (description de la sémantique des données, des méthodes d'aquisition, des transformations effectuées)    
 
 #### Accessibilité _(ease of physical and electronic access)_
 
@@ -123,18 +73,12 @@ L'évaluation du critère d'accessibilité s'appuie sur la graduation suivante:
 _Mise en oeuvre inexistante_ | _Mise en oeuvre insuffisante_ | _Mise en oeuvre suffisante_ | _Bonne mise en oeuvre_ | _Parfaite mise en oeuvre_ 
 les données ne sont accessible que sous forme d'une copie papier après demande écrite aux autorités | les données ne sont accessibles qu'après soumission d'un formulaire ou d'utilisation d'un client Flash | data format supports analysis and reuse | Available through bulk access protocols such as FTP and Rsync with sufficient bandwidth to allow demand to be met, as well as available through a well-documented API with good performance. | Available through bulk access protocols with sufficient bandwidth and API functionality, alongside links and pointers to outside sources.
 
-**Evaluation du SITG**
-
-
-**Recomendation**
-
-
 
 #### Non discriminatoire _(non-discrimination)_
 
 ![timeless](images/no_discrimination.jpg)
 
-Les données sont disponibles à toute personne, sans aucune obligation d'enregistrement. Tout obtacle à l'accès aux données tel que qu'une inscription préalable avec acceptation de certaines conditions doivent être abrogés. Au sens large, un accès non discriminatoire aux données signifie que toute personne peut accéder aux données à tout moment sans avoir à s'identifier ou fournir toutes pirèces justificatives.
+Les données sont disponibles à toute personne, sans aucune obligation d'enregistrement. Tout obstacle à l'accès aux données tel que qu'une inscription préalable avec acceptation de certaines conditions doivent être abrogés. Au sens large, un accès non discriminatoire aux données signifie que toute personne peut accéder aux données à tout moment sans avoir à s'identifier ou fournir toutes pirèces justificatives.
 
 ##### Graduation de l'évaluation
 
@@ -147,12 +91,6 @@ _Mise en oeuvre inexistante_ | _Mise en oeuvre insuffisante_ | _Mise en oeuvre s
 In-person visit Neccessary to View Data, Data released selectively to specific parties | Registration required to view data |  |  | No registration required to view or download data
 
 
-**Evaluation du SITG**
-
-
-**Recomendation**
-
-
 #### Licence libre _(licensing)_
 
 ![timeless](images/free_licence.jpeg)
@@ -163,13 +101,7 @@ L'imposition de «Conditions d'utilisation», conditions d'attribution, les rest
 
 > Parce que l'information gouvernementale est un mélange de registres publics, des renseignements personnels, le travail sous copyright, et d'autres non-ouverts de données, il est important d'être clair sur ce que les données sont disponibles et quelles licences, conditions d'utilisation et restrictions légales applicables. Les données pour lesquelles sans restrictions doivent être clairement marqués comme étant dans le domaine public. Recommandations
 
-> Because government information is a mix of public records, personal information, copyrighted work, and other non-open data, it is important to be clear about what data is available and what licensing, terms of service, and legal restrictions apply. Data for which no restrictions apply should be marked clearly as being in the public domain. Recommendations
-
 >Repères pour répondre à ces exigences notamment de savoir si les données peuvent être utilisées dans des applications basées sur des logiciels libres (y compris les licences et brevets gratuit), et si les individus sont capables de redistribuer les données sans restriction, sans nécessiter l'autorisation d'un tiers (y compris le gouvernement).
-
->Data are not subject to any copyright, patent, trademark or trade secret regulation. Reasonable privacy, security and privilege restrictions may be allowed as governed by other statutes. Finally, compliance must be reviewable. A contact person must be designated to respond to people trying to use the data. A contact person must be designated to respond to complaints about violations of the principles. An administrative or judicial court must have the jurisdiction to review whether the agency has applied these principles appropriately.
-
-> Benchmarks for meeting these requirements include whether the data can be used in applications based entirely on free software (including license and patent free), and whether individuals are able to redistribute the data without restriction, without requiring the permission of any third party (including the government).
 
 
 
@@ -182,12 +114,6 @@ L'évaluation de ce critère s'appuie sur la graduation suivante:
 --------|---------|----------|----------|--------- 
 _Mise en oeuvre inexistante_ | _Mise en oeuvre insuffisante_ | _Mise en oeuvre suffisante_ | _Bonne mise en oeuvre_ | _Parfaite mise en oeuvre_ 
 Pay-for-use, or most restrictive TOS or EULA, with possibly unlawful restrictions | Use with terms-of-service, citation requirements, non-commercial-use requirements | No license specified. Terms of use as given in law (e.g. FEC data). | Display of legislative terms of use in clear fashion alongside data | Clearly labeled public domain, work of the government.
-
-**Evaluation du SITG**
-
-
-**Recomendation**
-
 
 #### Gratuit _(usage costs)_
 
@@ -207,14 +133,8 @@ L'évaluation de ce critère s'appuie sur la graduation suivante:
 _Mise en oeuvre inexistante_ | _Mise en oeuvre insuffisante_ | _Mise en oeuvre suffisante_ | _Bonne mise en oeuvre_ | _Parfaite mise en oeuvre_ 
 Pay-for-use, or most restrictive TOS or EULA, with possibly unlawful restrictions | Use with terms-of-service, citation requirements, non-commercial-use requirements | No license specified. Terms of use as given in law (e.g. FEC data). | Display of legislative terms of use in clear fashion alongside data | Clearly labeled public domain, work of the government.
 
-**Evaluation du SITG**
+**Evaluation du SITG: 5/5**
 
-
-**Recomendation**
-
->Dispositions financières
-
->Le SITG ne possède pas de budget propre, mais fonctionne sur la mise en commun des ressources des partenaires. > >Chaque partenaire assume ses responsabilités financières et participe équitablement aux charges, produits et investissements pour les projets communs. > > La gratuité des données et des services entre partenaires et leurs mandataires est assurée. > > Les prestations du SITG aux tiers ne peuvent être facturées au-delà d'une redevance couvrant les coûts liés à la diffusion des données.
 
 
 ### Critères relatifs à l'analyse, au traitement et à la réutilisation des données publiées
@@ -241,13 +161,6 @@ L'évaluation de ce critère s'appuie sur la graduation suivante:
 _Mise en oeuvre inexistante_ | _Mise en oeuvre insuffisante_ | _Mise en oeuvre suffisante_ | _Bonne mise en oeuvre_ | _Parfaite mise en oeuvre_ 
  | les données publiées résultent de transformations & interprétations des données brutes provenant des sources primaires. Les transformations & interprétations ne sont pas documentées. | les données publiées résultent de transformations & interprétations des données brutes provenant des sources primaires. Les transformations & interprétations sont décrite de manière précise. | les données publiées proviennent directement des sources primaires. Cependant la sémantiques des données, des methodes d'aquisition ne sont pas décrites. | les données publiées proviennent directement des sources primaires. La sémantique des données ainsi que les methodes d'aquisition sont décrites avec précision.
 
-
-**Evaluation du SITG**
-
-
-**Recomendation**
-
-
 #### Immédiateté _(timeliness)_
 
 ![timeless](images/timeless_4.jpg)
@@ -263,12 +176,6 @@ L'évaluation de ce critère s'appuie sur la graduation suivante:
 --------|---------|----------|----------|--------- 
 _Mise en oeuvre inexistante_ | _Mise en oeuvre insuffisante_ | _Mise en oeuvre suffisante_ | _Bonne mise en oeuvre_ | _Parfaite mise en oeuvre_ 
  | les informations sont publiées avec beaucoup de retard (par exemple une année après leur acquisition). Elles ont ainsi perdu toute valeur | les données sont publiées 1 mois après leur acquisition | les données sont publiées une semaine après leur acquisition | les données sont publiées en temps réel. 
-
-
-**Evaluation du SITG**
-
-
-**Recomendation**
 
 
 #### Lisible par des machines _(machine readability)_
@@ -293,12 +200,6 @@ _Mise en oeuvre inexistante_ | _Mise en oeuvre insuffisante_ | _Mise en oeuvre s
 les données sont stockées soit sur des supports analogiques (papiers, photos, bandes magnétiques, ...) et ne peuvent donc par exploité. Pour le données numérisées, elles le sont dans des formats non-structurés (tel que des images de scan) ou semi-structurés (PDF) | les données sont stockées aux formats CSV | les données sont stockées aux formats CSV et sont égualment accessible au travers d'une API  | | les données sont stockées aux formats XML, JSON ou RDF et sont égualment accessible au travers d'une API bien documentée 
 
 
-**Evaluation du SITG**
-
-
-**Recomendation**
-
-
 #### Disponible de manière permanent _(permanence)_
 
 ![timeless](images/timeless_2.jpeg)
@@ -315,15 +216,7 @@ L'évaluation de ce critère s'appuie sur la graduation suivante:
 _Mise en oeuvre inexistante_ | _Mise en oeuvre insuffisante_ | _Mise en oeuvre suffisante_ | _Bonne mise en oeuvre_ | _Parfaite mise en oeuvre_ 
 Subject to indiscriminate or malicious deletion. no guarantee of permanence, information fully open to manipulation and removal. Non-Digital | Current data available but no archive. (E.g., a webcast stream but no file is an example) | Archived for the term of the current Administration | Plan in place for indefinite archival | strong archival standards, frequent archiving, versioning, archives available on web 
 
-
-
-**Evaluation du SITG**
-
-
-**Recomendation**
-
-
-#### Non propriétaire _(use of commonly owned ("open") standards)_
+#### Usage de formats non propriétaire _(use of commonly owned ("open") standards)_
 
 ![timeless](images/non_proprietary.jpeg)
 
@@ -344,12 +237,6 @@ L'évaluation de ce critère s'appuie sur la graduation suivante:
 --------|---------|----------|----------|--------- 
 _Mise en oeuvre inexistante_ | _Mise en oeuvre insuffisante_ | _Mise en oeuvre suffisante_ | _Bonne mise en oeuvre_ | _Parfaite mise en oeuvre_ 
  |  | |  | 
-
-
-**Evaluation du SITG**
-
-
-**Recomendation**
 
 
 ## Critères en lien avec la consommation des données
@@ -670,26 +557,126 @@ In summary, being a "data hub" as opposed to simply a source of data would posit
 
 
 
-# Résultats de l'evalutation de la plateforme du SITG
+# Résultats de l'evalutation et recommendations
+
+## Critères fondamentaux d'ouverture
+
+### Intégralité : 4/5
+
+Le portail du SITG publie des données cartographiques. Toutes les données n'ayant pas de caractères géographiques n'est donc pas compris dans l'offre de données mise à disposition. Cependant grâce à un large réseau de partenaire le SITG met à disposition un très large éventail de données (santé, environement, aménagement du territoire, mobilité …).
+Le SITG n'a pas un contrôle directe sur le contenu des données. Est-ce que les partenaires publient l'intégratlité de leur données ?
+Qu'en est-il des données de la ville de Genève ?
+Qu'en est-il des données non-géographiques ?
+
+**Recommendations**:
+
+### Accesibilité: 2/5 
+
+Accès aux données uniquement possbile en utilisant le client javascript
+nécessité de remplire un formulaire
+nécessité de valider un droit d'utilisation
+
+
+**Recommendations**:
+
+### Non-discrimination: 2/5
+
+* obligation d'avoir un compte sur le site
+* acceptaton de condition d'utilisation nécessaire
+
+
+**Recommendations**:
+
+### Licence libre: 2/5
+
+
+**Recommendations**:
+
+### Gratuité: 5/5
+
+>Dispositions financières
+
+>Le SITG ne possède pas de budget propre, mais fonctionne sur la mise en commun des ressources des partenaires. > >Chaque partenaire assume ses responsabilités financières et participe équitablement aux charges, produits et investissements pour les projets communs. > > La gratuité des données et des services entre partenaires et leurs mandataires est assurée. > > Les prestations du SITG aux tiers ne peuvent être facturées au-delà d'une redevance couvrant les coûts liés à la diffusion des données.
+
+
+**Recommendations**:
 
 
 
-# Recomandations
+![result_1](images/result_1.png)
 
-http://sunlightfoundation.com/blog/2011/07/14/vivek-kundras-10-principles-for-improving-federal-transparency/
+## Critères relatifs à l'analyse, au traitement et à la réutilisation des données publiées
 
-## Publications des données
+### Sources primaires: 4/5
 
-### Stabilité des services par rapport aux changements
+### Immédiateté: 5/5
 
-* utilisation de CKAN ? 
-* notifications des utilisateurs
+### Permanence: 2/5
 
-## Consommation des données
+### Utilisation de formats structurés: 5/5
+
+### Utilisation de formats non-propriétaires: 4/5
+
+![result_2](images/result_2.png)
 
 
+# Permanence des données et gestion des changements: utilisation éventuelle de CKAN
+ 
+Je vais tenter ici de décrire comment CKAN pourrait-être utilisé dans le cas du SITG et quelles solutions il propose au problème de permanence des données et de gestion des changements.
+ 
+## La Permanence des données dans le temps ? pourquoi faire ?
+ 
+La permanence des données dans le temps est, pour une plateforme opendata digne de ce nom, très importante. Souvent l'information est mise à jour, modifiées ou supprimées sans aucune indication des modifications faites. L'anciène version d'un jeu de données donné et simplement remplacée par une nouvelle version. L'accès aux précédantes versions n'est tout simplement plus possible. Ou bien les informations sont publiées sous forme de flux de données, mais pas archivée quelque part. Pour une meilleure utilisation par le grand public, les informations une fois mises en lignes devraient rester en ligne pour toujours. Cette dimensions temporelle liée à une donnée permet également de faire des analyses dans le temps: comment tel facteur a évolué dans le temps.   
+ 
+## Le modèle de données CKAN en bref
+ 
+Avant toutes choses il est important de bien comprendre le modèle et les différentes entités définies par CKAN. Le modèle a l'avantage d'être très simple et extensible.
+ 
+CKAN défini le concept de jeux-de-données (dataset en anglais). Un jeu de données correspond à une couche (ou plan de carte) du SITG. Il contient les méta-données décrivant la couche. En plus d'un certain nombre de méta-données standards il peut être étendu à l'envie par l'ajout de nouvelles paires de clef/valeur. Il est également possible de définir des liens entres les différents jeux de données. 
+Un jeu de donnée contient une ou plusieurs ressources. Une ressource constitue le lien physique vers la source de donnée (pour faire court : un URL), que ce soit une archives ou que ce soit une API.
+Les jeux de données peuvent être regroupés dans des groupes. Typiquement dans le cadre du SITG un groupe par partenaire et par thématique pourrait être défini.
+ 
+ 
+## Implémentation du catalogue du SITG par CKAN
+ 
+Ayant ce modèle à l'esprit le catalogue du SITG pourrait être implémenté par CKAN de la manière suivante: 
+ 
+Pour chaque partenaire et thématique un groupe est défini, comme par exemple ici :  http://publicdata.eu/group. Vraisemblablement une bonne idée serait de définir ces groupes pour chaque année, par exemple "santé_2009", "santé_2010", … 
+chacune des 600 couches métiers correspond à un jeu de données comme par exemple ici --> http://publicdata.eu/dataset/agregat-de-donnees-statistiques-sur-lhorticulture-en-ile-de-france-en-2000 Ici serait contenu les informations actuellement décrites dans les fiches de métadonnées. Tout comme les groupes une bonne idée serait de définir un jeu de donnée par année à savoir par exemple "
+pour chaque jeu de données (dataset, ou couche) serait défini différentes ressources: 
+une ressource pour type d'API (REST, …)
+une ressource vers une simple archive pour differents format (shape/KML/...)
+Afin de facilité la recherche les différents jeux de données peuvent 
+en utilisant les regroupements produit par Nastaran il est possible de tagé les différents jeux de données 
+des relations de dépendance peuvent aussi être définie entre les jeux de données
+ 
+## Gestion des changements par le catalogue CKAN
+ 
+Ayant ainsi défini le catalogue du SITG avec CKAN les mécanismes suivants permettant de gérer les changements intervenants sur les données peuvent être mis en place :
+ 
+CKAN 1.8 enregistre tous les changements effectués sur les métadonnées définies par un jeux de données (dataset) et sur les données des ressources y étant associées  --> http://datahub.io/dataset/history/1855spanishrailways
+ 
+CKAN 2.0 permet la même chose mais par l'intermédiaire d'un "activity stream" -->  http://publicdata.eu/group/activity/health
+ 
+Pour les données n'étant pas stockée sur le serveur CKAN il existe un module d'archivage  permettant à intervalle régulier de télécharger les fichiers distant et de vérifier si les données ont été changées. Si oui les ressources et les métadonnées du jeu de données peuvent être mise à jour.
+ 
+Dans le cas de figure d'une mise à jour des données faite à une relative basse fréquence connue à l'avance (par exemple chaque trimestre) le plus simple et de définir pour chaque nouvelle version trimestrielle une nouvelle ressource.
+ 
+## Mécanismes de notification 
+ 
+CKAN propose 3 mécanismes de notifications:
+ 
+* Système d'abonnement  : les utilisateurs enregistrés sur la plateforme CKAN ont la possibilité de s' "abonner" à un jeu de données. Par cet intermédiaire, en se rendant sur leur dashboard personnel, ils sont informés de tout les changements opérés sur les jeux de données auxquelles ils sont inscrit. 
+ 
+* Mail: Avec la version 2.0 de CKAN il est également possible d'être notifié par email des changements intervenus.
+ 
+* RSS feed: CKAN propose par défaut différent flux RSS auxquels il est possible de s'abonner:
+par exemple: 
+ http://datahub.io/feeds/dataset.atom <-RSS feed sur l'intégralité du portail
+·         /feeds/group/{X}.atom <- pour un jeu de données dans un groupe X
+/feeds/tag/{Y}.atom <- pout tous les jeux de données taggé avec Y
+/feeds/custom.atom?q=... <- pour les jeux de données correspondant à une certaine requête de recherche définie par l'utilisateur
 
-# Conclusions
 
 
 
